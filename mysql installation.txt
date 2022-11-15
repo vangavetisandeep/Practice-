@@ -1,0 +1,23 @@
+yum update -y
+   19  sudo amazon-linux-extras install epel -y
+   20  sudo yum install https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm
+   21  sudo yum install mysql-community-server
+   22  systemctl active mysqld
+   23  systemctl start mysqld
+   24  systemctl status mysqld
+   25  cat /var/log/mysql.log | grep "Temporary Password"
+   26  cd /var/log/mysql.log
+   27  cd /var
+   28  cd /log
+   29  ls
+   30  cd log
+   31  ls
+   32  cd mysqld.log
+   33  cat mysqld.log
+   34   SWBpH5;+3r2d
+   35  sudo mysql_secure_installation
+   36  +Y%/<-3nM/E (Temporary Password)
+   37  sudo mysql_secure_installation
+   38  history
+
+create table employee;
